@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Facebook.plist
+   FestFriend02
+
+   Created by Kazi Abdullah Al Mamun on 14/2/19.
+   Copyright (c) 2019 MySoftheaven BD. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>appId</key>
+        <string>2227994504085554</string>
+        <key>redirectUri</key>
+        <string>"abcd.com"</string>
+    </dict>
+</plist>

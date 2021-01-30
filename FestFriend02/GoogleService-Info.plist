@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>989459931535-511roefs6ut062sht3u5hqer53i0svl6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.989459931535-511roefs6ut062sht3u5hqer53i0svl6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDm0140owIAqyQOCR4FR6KVJxOzuGbx3H8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>989459931535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mysoft.festfriends</string>
+	<key>PROJECT_ID</key>
+	<string>festfriends-5651c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>festfriends-5651c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:989459931535:ios:f805e17a70f8f924adebfa</string>
+	<key>DATABASE_URL</key>
+	<string>https://festfriends-5651c.firebaseio.com</string>
+</dict>
+</plist>

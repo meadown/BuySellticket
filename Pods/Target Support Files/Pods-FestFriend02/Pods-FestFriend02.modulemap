@@ -1,0 +1,6 @@
+framework module Pods_FestFriend02 {
+  umbrella header "Pods-FestFriend02-umbrella.h"
+
+  export *
+  module * { export * }
+}

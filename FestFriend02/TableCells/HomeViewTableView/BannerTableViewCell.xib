@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="314" id="KGk-i7-Jjw" customClass="BannerTableViewCell" customModule="FestFriend02" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="499" height="314"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="499" height="313.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="cAN-AV-Ed7">
+                        <rect key="frame" x="0.0" y="0.0" width="499" height="313.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2SM-rP-ORv">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVb-Fm-U0N" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                        <rect key="frame" x="0.0" y="15" width="499" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="PZs-ss-cNW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="scrollRate">
+                                <real key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="cAN-AV-Ed7" secondAttribute="bottom" id="Cf3-gw-2MA"/>
+                    <constraint firstItem="sVb-Fm-U0N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="F7w-P1-e7C"/>
+                    <constraint firstItem="cAN-AV-Ed7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JVS-B2-qHf"/>
+                    <constraint firstItem="sVb-Fm-U0N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mkp-2b-09e"/>
+                    <constraint firstItem="cAN-AV-Ed7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="S9Q-Mw-cYU"/>
+                    <constraint firstAttribute="trailing" secondItem="cAN-AV-Ed7" secondAttribute="trailing" id="Skw-Gg-MDP"/>
+                    <constraint firstAttribute="trailing" secondItem="sVb-Fm-U0N" secondAttribute="trailing" id="b7p-LI-yqR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bannerCollectionView" destination="cAN-AV-Ed7" id="rcx-hc-EnU"/>
+                <outlet property="lblTickerTabs" destination="sVb-Fm-U0N" id="NDj-mY-GiO"/>
+            </connections>
+            <point key="canvasLocation" x="223.19999999999999" y="-62.068965517241381"/>
+        </tableViewCell>
+    </objects>
+</document>
